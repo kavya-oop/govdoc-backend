@@ -1,0 +1,11 @@
+{
+    "ssn_f1_application": {
+      "display_name": "SSN Application (F-1 Student)",
+      "ai_query": "What documents are typically required for an international F-1 student applying for a Social Security Number (SSN) in the US?"
+    },
+    "ssn_replacement": {
+      "display_name": "SSN Replacement Application",
+      "ai_query": "What documents are typically required to apply for a replacement SSN card?"
+    }
+  }
+  

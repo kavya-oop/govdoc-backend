@@ -1,0 +1,21 @@
+{
+    "ssn_replacement": {
+      "display": "SSN Replacement Application",
+      "ai_prompt": "This user is applying for a Social Security Number (SSN) replacement. Verify that the submitted documents fulfill SSA requirements for proof of age, identity, and either immigration or citizenship status. Check for missing documents, expired documents, or mismatches in name, birth date, or status.",
+      "required_categories": {
+        "evidence_of_age": {
+          "display": "Evidence of Age",
+          "document_options": ["birth_certificate", "passport"]
+        },
+        "evidence_of_identity": {
+          "display": "Evidence of Identity",
+          "document_options": ["passport", "driver_license"]
+        },
+        "immigration_or_citizenship": {
+          "display": "U.S. Immigration or Citizenship Status",
+          "document_options": ["i94", "i20", "naturalization_certificate"]
+        }
+      }
+    }
+  }
+  

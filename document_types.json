@@ -1,0 +1,43 @@
+{
+    "passport": {
+      "display": "Passport",
+      "fields": ["passport_number", "full_name", "expiration_date", "country_of_issuance"],
+      "redact_fields": ["passport_number"]
+    },
+    "i94": {
+      "display": "I-94 Travel Record",
+      "fields": ["i94_number", "entry_date", "expiration_date", "visa_status"],
+      "redact_fields": ["i94_number"]
+    },
+    "i20": {
+      "display": "I-20 Form",
+      "fields": ["sevis_id", "program_start_date", "program_end_date", "school_name", "student_status"],
+      "redact_fields": ["sevis_id"]
+    },
+    "i539": {
+      "display": "I-539 Form",
+      "fields": ["receipt_number", "filing_date", "decision_status"],
+      "redact_fields": ["receipt_number"]
+    },
+    "drivers_license": {
+      "display": "Driver’s License",
+      "fields": ["license_number", "state", "expiration_date"],
+      "redact_fields": ["license_number"]
+    },
+    "birth_certificate": {
+      "display": "Birth Certificate",
+      "fields": ["full_name", "date_of_birth", "place_of_birth"],
+      "redact_fields": []
+    },
+    "employment_letter": {
+      "display": "Employment Letter",
+      "fields": ["employer_name", "start_date", "position_title", "salary"],
+      "redact_fields": ["salary"]
+    },
+    "ss5": {
+      "display": "SS-5 Application Form",
+      "fields": ["full_name", "date_of_birth", "citizenship_status"],
+      "redact_fields": []
+    }
+  }
+  
